@@ -14,10 +14,10 @@
 
 include('mongodb_connection.php');
 echo('<p>1</p>')
-
+/*
 include('hashing.php');
 echo('<p>2</p>')
-/*
+
 $collection = connect_mongodb();
 echo('<p>3</p>')
 
