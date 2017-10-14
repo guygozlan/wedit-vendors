@@ -11,7 +11,7 @@
 <body>
 
 <?php
-
+/*
 include('mongodb_connection.php');
 include('hashing.php');
 $collection = connect_mongodb();
@@ -94,7 +94,7 @@ foreach($list as $prop => $value)
 echo '    </div>';
 echo '  </div>';
 echo '</div>';
-
+*/
 ?>
 
 </body>
