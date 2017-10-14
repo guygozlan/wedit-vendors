@@ -4,7 +4,8 @@ function connect_mongodb()
   $collection = NULL;
   try {
     $mssg = "";
-    $m = new MongoClient("127.2.99.130:27017", array('username'=>'admin','password'=>'kN28LiwlMP3Y'));
+    //$m = new MongoClient("127.2.99.130:27017", array('username'=>'admin','password'=>'kN28LiwlMP3Y'));
+    $m = new MongoClient("ds119675.mlab.com:19675", array('username'=>'guywedit','password'=>'guy150383'));
     $mssg = $mssg . "* Connection to database status: ";
     if ($m->connected) $mssg = $mssg . '<p style="color:green;"> Connected </p> <br />';
     else               $mssg = $mssg . '<p style="color:red;"  > Connection Failed </p> <br />';
