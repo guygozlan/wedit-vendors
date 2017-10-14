@@ -11,8 +11,9 @@
 <body>
 <p>Hi</p>
 <?php
-/*
+
 include('mongodb_connection.php');
+/*
 include('hashing.php');
 $collection = connect_mongodb();
 
