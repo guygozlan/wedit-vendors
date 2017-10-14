@@ -14,12 +14,12 @@
 
 include('mongodb_connection.php');
 echo('<p>1</p>')
-
+/*
 include('hashing.php');
 echo('<p>2</p>')
 $collection = connect_mongodb();
 echo('<p>3</p>')
-/*
+
 // Query DB collection vendors
 $cursor = $collection->find(array("VendorName" => array('$ne' => null)));
 $cursor->sort(array('VendorName' => 1));
